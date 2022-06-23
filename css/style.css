@@ -1,0 +1,45 @@
+body {
+  margin-bottom: 100px;
+  background-color: #ffb307;
+}
+#carouselExampleCaptions {
+  /* box-sizing: border-box; */
+  box-shadow: -12px 11px 17px -3px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: -12px 11px 17px -3px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: -12px 11px 17px -3px rgba(0, 0, 0, 0.68);
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.jumbotron {
+  /* background-color: #216f7c; */
+  /* background-color: #e38800; */
+  background-image: url("https://menuserrano.com/wp-content/uploads/2017/05/4454310-food-wallpapers.jpg");
+  color: white;
+}
+.slide-menu {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+.slide-menu img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
+.navbar {
+  background-color: #ffb307;
+}
+.navbar-brand,
+.nav-link {
+  font-family: "Pacifico", cursive;
+}

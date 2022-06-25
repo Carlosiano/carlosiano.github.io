@@ -1,5 +1,4 @@
 body {
-  margin-bottom: 100px;
   background-color: #ffb307;
 }
 #carouselExampleCaptions {
@@ -11,9 +10,9 @@ body {
   box-sizing: border-box;
   overflow: hidden;
 }
-.album {
+/* .album {
   background-color: #e38800;
-}
+} */
 .jumbotron {
   /* background-color: #216f7c; */
   /* background-color: #e38800; */
@@ -44,6 +43,10 @@ body {
   display: inline-block;
   overflow: hidden;
   margin: 0;
+}
+
+.col .card.shadow.p-1 {
+  background-color: #ffd07a;
 }
 
 .card-image {
@@ -79,4 +82,13 @@ body {
 .navbar-brand,
 .nav-link {
   font-family: "Pacifico", cursive;
+}
+.nav-item .text-danger:hover {
+  color: white;
+}
+.promo-banner {
+  width: 100%;
+}
+footer {
+  font-family: 'Righteous', cursive;
 }

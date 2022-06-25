@@ -1,307 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu - Concad Restaurant</title>
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-    <!-- style personal -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- navigasi -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand text-dark fs-2" href="#">Concad Restaurant</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link text-dark"
-                  aria-current="page"
-                  href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-danger"
-                  aria-current="page"
-                  href="menu.html"
-                  >Menu</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#"
-                  >Box Catering</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#"
-                  >Location</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#"
-                  >Contact Us</a
-                >
-              </li>
-            </ul>
-            <!-- <form class="d-flex" role="search">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Concad Restaurant</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <!-- style personal -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- navigasi -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark fs-2" href="index.html">Concad Restaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" aria-current="page" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#">Box Catering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" aria-current="page" href="#">Keranjang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             <button class="btn btn-primary" type="submit">Search</button>
           </form> -->
-          </div>
-        </div>
-      </nav>
-    </div>
-
-    <!-- slide menu -->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide container rounded-3 mb-4"
-      data-bs-ride="false"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="slide-menu">
-            <img
-              class=""
-              width="255"
-              src="assets/img/menu/nasi_goreng.jpg"
-              alt=""
-            />
-          </div>
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Nasi Goreng</h1>
-            <h4>
-              Some representative placeholder content for the first slide.
-            </h4>
-            <button class="btn btn-success">Pesan</button>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <div class="slide-menu">
-            <img
-              class=""
-              width="255"
-              src="assets/img/menu/nasi_goreng.jpg"
-              alt=""
-            />
-          </div>
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Nasi Goreng</h1>
-            <h4>
-              Some representative placeholder content for the first slide.
-            </h4>
-            <button class="btn btn-success">Pesan</button>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <div class="slide-menu">
-            <img
-              class=""
-              width="255"
-              src="assets/img/menu/nasi_goreng.jpg"
-              alt=""
-            />
-          </div>
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Nasi Goreng</h1>
-            <h4>
-              Some representative placeholder content for the first slide.
-            </h4>
-            <button class="btn btn-success">Pesan</button>
-          </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </nav>
+  </div>
 
-    <!-- list menu -->
-    <div class="container bg-light rounded-3 mb-2">
-      <div class="bd-example p-2">
-        <div class="row">
-          <div class="col-4">
-            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end" >
- <a class="navbar-brand" href="#">List Menu</a>
+  <!-- slide menu -->
+  <div id="carouselExampleCaptions" class="carousel slide container rounded-3 mb-4" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="slide-menu">
+          <img class="" width="255" src="assets/img/menu/nasi_goreng.jpg" alt="" />
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Nasi Goreng</h1>
+          <h4>
+            Some representative placeholder content for the first slide.
+          </h4>
+          <button class="btn btn-danger">Pesan</button>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="slide-menu">
+          <img class="" width="255" src="assets/img/menu/nasi_goreng.jpg" alt="" />
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Nasi Goreng</h1>
+          <h4>
+            Some representative placeholder content for the first slide.
+          </h4>
+          <button class="btn btn-danger">Pesan</button>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="slide-menu">
+          <img class="" width="255" src="assets/img/menu/nasi_goreng.jpg" alt="" />
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Nasi Goreng</h1>
+          <h4>
+            Some representative placeholder content for the first slide.
+          </h4>
+          <button class="btn btn-danger">Pesan</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- list menu -->
+  <div class="container rounded-3 mb-2" style="background-color: #ffbd45">
+    <div class="bd-example p-2">
+      <div class="row">
+        <div class="col-5 rounded-3" style="background-color: #ffcd70">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <a class="navbar-brand text-decoration-underline" href="#">
+              <h2>List Menu</h2>
+            </a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1-1">Nasi</a>
               <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#item-1">Nasi</a>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-1-1">Nasi Goreng</a>
-                  <a class="nav-link ms-3 my-1" href="#item-1-2">Nasi Ayam</a>
-                </nav>
-                <a class="nav-link" href="#item-2">Mie</a>
-                <a class="nav-link active" href="#item-3">Ayam</a>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-3-1">Ayam Goreng</a>
-                  <a class="nav-link ms-3 my-1 active" href="#item-3-2"
-                    >Ayam Bakar</a
-                  >
-                </nav>
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Nasi Goreng</a>
+                <a class="nav-link ms-3 my-1 active" href="#item-1-2">Nasi Ayam</a>
+              </nav>
+              <a class="nav-link" href="#item-2-1">Mie</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-2-1">Mie Goreng</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-2">Mie Kuah</a>
+              </nav>
+              <a class="nav-link" href="#item-3-1">Ayam</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-3-1">Ayam Goreng</a>
+                <a class="nav-link ms-3 my-1" href="#item-3-2">Ayam Bakar</a>
               </nav>
             </nav>
-          </div>
-          <div class="col-8">
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2 overflow-scroll" tabindex="0" style="height: 320px;">
-              <div id="item-1">
-                <h4>Nasi</h4>
+          </nav>
+        </div>
+        <div class="col-7">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+            class="scrollspy-example-2 overflow-hidden" tabindex="0" style="height: 400px">
+            <div id="item-1" class="mt-1">
+              <h4>Nasi</h4>
+            </div>
+            <div id="item-1-1" class="d-flex flex-column mt-2">
+              <h4 class="text-decoration-underline text-center">Nasi Goreng</h4>
+              <div class="bg-dark overflow-hidden rounded-3" style="width: 100%; height: 250px">
+                <img width="1000" src="assets/img/menu/nasi_goreng.jpg" alt="" />
               </div>
-              <div id="item-1-1" class="d-flex flex-column">
-                <h5>Nasi Goreng</h5>
-                <img width="200" src="assets/img/menu/nasi_goreng.jpg" alt="">
-                <button class="btn btn-danger" style="width: max-content;">Pesan</button>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-5">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-success" style="width: 38px;">+</button>
+                  <button type="button" class="btn btn-danger" style="width: 38px;">-</button>
+                </div>
+                <h4 class="text-success">Rp.20.000</h4>
               </div>
-              <div id="item-1-2" class="d-flex flex-column">
-                <h5>Nasi Goreng</h5>
-                <img width="200" src="assets/img/menu/nasi_goreng.jpg" alt="">
-                <button class="btn btn-danger" style="width: max-content;">Pesan</button>
+            </div>
+
+            <div id="item-1-2" class="d-flex flex-column mt-2">
+              <h4 class="text-decoration-underline text-center">Nasi Ayam</h4>
+              <div class="bg-dark overflow-hidden rounded-3" style="width: 100%; height: 250px">
+                <img width="1000" src="assets/img/menu/nasi_goreng.jpg" alt="" />
               </div>
-              <div id="item-2">
-                <h4>Item 2</h4>
-                <p>
-                  This is some placeholder content for the scrollspy page. Note
-                  that as you scroll down the page, the appropriate navigation
-                  link is highlighted. It's repeated throughout the component
-                  example. We keep adding some more example copy here to
-                  emphasize the scrolling and highlighting.
-                </p>
-                <p>
-                  Keep in mind that the JavaScript plugin tries to pick the
-                  right element among all that may be visible. Multiple visible
-                  scrollspy targets at the same time may cause some issues.
-                </p>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-5">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-success" style="width: 38px;">+</button>
+                  <button type="button" class="btn btn-danger" style="width: 38px;">-</button>
+                </div>
+                <h4 class="text-success">Rp.20.000</h4>
               </div>
-              <div id="item-3">
-                <h4>Item 3</h4>
-                <p>
-                  This is some placeholder content for the scrollspy page. Note
-                  that as you scroll down the page, the appropriate navigation
-                  link is highlighted. It's repeated throughout the component
-                  example. We keep adding some more example copy here to
-                  emphasize the scrolling and highlighting.
-                </p>
-                <p>
-                  Keep in mind that the JavaScript plugin tries to pick the
-                  right element among all that may be visible. Multiple visible
-                  scrollspy targets at the same time may cause some issues.
-                </p>
+            </div>
+
+            <div id="item-2" class="mt-1">
+              <h4>Mie</h4>
+            </div>
+
+            <div id="item-2-1" class="d-flex flex-column mt-2">
+              <h4 class="text-decoration-underline text-center">Mie Goreng</h4>
+              <div class="bg-dark overflow-hidden rounded-3" style="width: 100%; height: 250px">
+                <img width="1000" src="assets/img/menu/nasi_goreng.jpg" alt="" />
               </div>
-              <div id="item-3-1">
-                <h5>Item 3-1</h5>
-                <p>
-                  This is some placeholder content for the scrollspy page. Note
-                  that as you scroll down the page, the appropriate navigation
-                  link is highlighted. It's repeated throughout the component
-                  example. We keep adding some more example copy here to
-                  emphasize the scrolling and highlighting.
-                </p>
-                <p>
-                  Keep in mind that the JavaScript plugin tries to pick the
-                  right element among all that may be visible. Multiple visible
-                  scrollspy targets at the same time may cause some issues.
-                </p>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-5">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-success" style="width: 38px;">+</button>
+                  <button type="button" class="btn btn-danger" style="width: 38px;">-</button>
+                </div>
+                <h4 class="text-success">Rp.20.000</h4>
               </div>
-              <div id="item-3-2">
-                <h5>Item 3-2</h5>
-                <p>
-                  This is some placeholder content for the scrollspy page. Note
-                  that as you scroll down the page, the appropriate navigation
-                  link is highlighted. It's repeated throughout the component
-                  example. We keep adding some more example copy here to
-                  emphasize the scrolling and highlighting.
-                </p>
-                <p>
-                  Keep in mind that the JavaScript plugin tries to pick the
-                  right element among all that may be visible. Multiple visible
-                  scrollspy targets at the same time may cause some issues.
-                </p>
+            </div>
+
+            <div id="item-2-2" class="d-flex flex-column mt-2">
+              <h4 class="text-decoration-underline text-center">Mie Kuah</h4>
+              <div class="bg-dark overflow-hidden rounded-3" style="width: 100%; height: 250px">
+                <img width="1000" src="assets/img/menu/nasi_goreng.jpg" alt="" />
+              </div>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-5">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-success" style="width: 38px;">+</button>
+                  <button type="button" class="btn btn-danger" style="width: 38px;">-</button>
+                </div>
+                <h4 class="text-success">Rp.20.000</h4>
+              </div>
+            </div>
+
+            <div id="item-3" class="mt-1">
+              <h4>Ayam</h4>
+            </div>
+
+            <div id="item-3-1" class="d-flex flex-column mt-2">
+              <h4 class="text-decoration-underline text-center">Ayam Goreng</h4>
+              <div class="bg-dark overflow-hidden rounded-3" style="width: 100%; height: 250px">
+                <img width="1000" src="assets/img/menu/nasi_goreng.jpg" alt="" />
+              </div>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-5">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-success" style="width: 38px;">+</button>
+                  <button type="button" class="btn btn-danger" style="width: 38px;">-</button>
+                </div>
+                <h4 class="text-success">Rp.20.000</h4>
+              </div>
+            </div>
+
+            <div id="item-3-2" class="d-flex flex-column mt-2">
+              <h4 class="text-decoration-underline text-center">Ayam Bakar</h4>
+              <div class="bg-dark overflow-hidden rounded-3" style="width: 100%; height: 250px">
+                <img width="1000" src="assets/img/menu/nasi_goreng.jpg" alt="" />
+              </div>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-5">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-success" style="width: 38px;">+</button>
+                  <button type="button" class="btn btn-danger" style="width: 38px;">-</button>
+                </div>
+                <h4 class="text-success">Rp.20.000</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="bg-dark text-center text-lg-start">
-      <div class="text-center p-3 text-white-50">
-        © 2020 Copyright:
-        <a class="text-white-50" href="https://carlosiano.github.io/"
-          >carlosiano.github.com</a
-        >
-      </div>
-    </footer>
+  <!-- bagian footer/bagian paling bawah dari website untuk menjelaskan Copyright/hak cipta -->
+  <footer class="bg-dark text-center text-lg-start">
+    <div class="text-center p-3 text-white-50">
+      © 2020 Copyright:
+      <a class="text-white-50" href="https://carlosiano.github.io/">carlosiano.github.com</a>
+    </div>
+  </footer>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

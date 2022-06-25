@@ -1,6 +1,7 @@
 body {
   background-color: #ffb307;
   margin-bottom: 0;
+  font-family: "Righteous", cursive;
 }
 #carouselExampleCaptions {
   /* box-sizing: border-box; */
@@ -80,9 +81,11 @@ body {
 .navbar {
   background-color: #ffb307;
 }
-.navbar-brand,
-.nav-link {
+.navbar-brand{
   font-family: "Pacifico", cursive;
+}
+#navbar-example3 a.navbar-brand{
+  font-family: "Righteous", cursive;
 }
 .nav-item .text-danger:hover {
   color: white;
@@ -90,6 +93,11 @@ body {
 .promo-banner {
   width: 100%;
 }
-footer {
-  font-family: 'Righteous', cursive;
+
+.nav-pills .nav-link.active {
+  background-color: #212529;
+  color: white;
+}
+.nav-pills .nav-link {
+  color: #212529;
 }

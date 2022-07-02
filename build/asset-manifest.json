@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7e508cb2.css",
+    "main.js": "./static/js/main.bb87fee3.js",
+    "static/media/mie_ayam.jpeg": "./static/media/mie_ayam.7dc48bf31fd5dd130ad2.jpeg",
+    "static/media/kopi_panas.jpg": "./static/media/kopi_panas.d55f3e8de5df73b4ad34.jpg",
+    "static/media/nasi_kuning.jpeg": "./static/media/nasi_kuning.c0d4f08d022b48722a31.jpeg",
+    "static/media/nasi_goreng.jpg": "./static/media/nasi_goreng.3f667d895ba470e5a108.jpg",
+    "static/media/jumbotron.jpg": "./static/media/jumbotron.5902e5be33ba4a613736.jpg",
+    "static/media/coklat_panas.jpeg": "./static/media/coklat_panas.123137280be2ea98b099.jpeg",
+    "static/media/susu_kocok.jpeg": "./static/media/susu_kocok.17adb45598248ebc5c2d.jpeg",
+    "static/media/mie_goreng.jpg": "./static/media/mie_goreng.e47ca42716b01886eb6e.jpg",
+    "static/media/nasi_uduk.jpg": "./static/media/nasi_uduk.ddeaad4370320396d39f.jpg",
+    "static/media/nasi_ayam.jpg": "./static/media/nasi_ayam.baec7d42a362fdf3696c.jpg",
+    "static/media/jus_jeruk.jpg": "./static/media/jus_jeruk.25de2cdde673a4e5b7af.jpg",
+    "static/media/teh_susu.jpg": "./static/media/teh_susu.596812d6132b3d64479e.jpg",
+    "static/media/nasi_liwet.jpg": "./static/media/nasi_liwet.3854120234e1e12cfa59.jpg",
+    "static/media/mie_soto.jpg": "./static/media/mie_soto.113f10f75e2c0eebed59.jpg",
+    "index.html": "./index.html",
+    "main.7e508cb2.css.map": "./static/css/main.7e508cb2.css.map",
+    "main.bb87fee3.js.map": "./static/js/main.bb87fee3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e508cb2.css",
+    "static/js/main.bb87fee3.js"
+  ]
+}

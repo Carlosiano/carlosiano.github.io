@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.7e508cb2.css",
-    "main.js": "./static/js/main.bb87fee3.js",
+    "main.css": "./static/css/main.7307d402.css",
+    "main.js": "./static/js/main.44a21ae9.js",
     "static/media/mie_ayam.jpeg": "./static/media/mie_ayam.7dc48bf31fd5dd130ad2.jpeg",
     "static/media/kopi_panas.jpg": "./static/media/kopi_panas.d55f3e8de5df73b4ad34.jpg",
     "static/media/nasi_kuning.jpeg": "./static/media/nasi_kuning.c0d4f08d022b48722a31.jpeg",
@@ -17,11 +17,11 @@
     "static/media/nasi_liwet.jpg": "./static/media/nasi_liwet.3854120234e1e12cfa59.jpg",
     "static/media/mie_soto.jpg": "./static/media/mie_soto.113f10f75e2c0eebed59.jpg",
     "index.html": "./index.html",
-    "main.7e508cb2.css.map": "./static/css/main.7e508cb2.css.map",
-    "main.bb87fee3.js.map": "./static/js/main.bb87fee3.js.map"
+    "main.7307d402.css.map": "./static/css/main.7307d402.css.map",
+    "main.44a21ae9.js.map": "./static/js/main.44a21ae9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e508cb2.css",
-    "static/js/main.bb87fee3.js"
+    "static/css/main.7307d402.css",
+    "static/js/main.44a21ae9.js"
   ]
 }
